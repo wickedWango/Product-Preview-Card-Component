@@ -129,10 +129,9 @@ select {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
   padding: 5%;
 }
-
 
 /* Colorgraphy related */
 body {
@@ -140,6 +139,19 @@ body {
 }
 .card-body {
   background-color: var(--white);
+}
+.card-button {
+  background-color: var(--primary-cyan);
+  color: var(--white);
+}
+#btn-cart {
+  background: url("../images/icon-cart.svg") no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  padding: 0px 10px;
 }
 .attribution {
   font-size: 11px;
